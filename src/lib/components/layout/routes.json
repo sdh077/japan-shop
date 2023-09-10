@@ -1,0 +1,34 @@
+[
+	{
+		"title": "대시보드",
+		"link": "/main",
+		"icon": "fa-solid fa-chart-column"
+	},
+	{
+		"title": "공지사항",
+		"link": "/notice",
+		"icon": "fa-solid fa-bullhorn"
+	},
+	{
+		"title": "family",
+		"link": "/family",
+		"icon": "fa-solid fa-people-group"
+	},
+	{
+		"title": "bill",
+		"link": "/pay",
+		"icon": "fa-solid fa-money-bill-wave",
+		"items": [
+			{
+				"title": "신규",
+				"link": "/pay/add",
+				"icon": "fa-regular fa-address-card"
+			},
+			{
+				"title": "납부관리",
+				"link": "/pay",
+				"icon": "fa-solid fa-file-invoice-dollar"
+			}
+		]
+	}
+]
