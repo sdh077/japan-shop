@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import AOS from 'aos';
-	import '$lib/assets/css/theme.css';
+	import '$lib/assets/css/theme-shop.css';
 	import 'aos/dist/aos.css';
 	import '$lib/assets/fonts/bootstrap-icons/bootstrap-icons.css';
 	import '$lib/assets/fonts/boxicons/css/boxicons.min.css';
@@ -16,6 +16,8 @@
 </script>
 
 <svelte:head>
+	<link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+	<script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 	<link

@@ -7,7 +7,6 @@
 	let y;
 	let toggle = false;
 	let user = Cookies.get('id') ?? '';
-	console.log('user', user, Cookies.get('id'), { httpOnly: true, path: '/' });
 
 	import { onMount } from 'svelte';
 
@@ -43,7 +42,7 @@
 		<div class="navbar-fixed-bg position-absolute" />
 		<div class="container position-relative z-1">
 			<!--begin:logo-->
-			<a class="navbar-brand display-2" href="/"> FAABS COFFEE </a>
+			<a class="navbar-brand display-2" href="/"> 일본 쇼핑의 모든 것 </a>
 			<!--end:logo-->
 			<!--begin:navbar-no-collapse-items-->
 			<div class="d-flex align-items-center navbar-no-collapse-items order-lg-last">

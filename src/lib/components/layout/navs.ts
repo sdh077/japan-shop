@@ -5,10 +5,6 @@ export default [
 		class: 'nav_item',
 		items: null,
 	}, {
-		title: 'bean',
-		link: '/bean',
-		class: 'nav_item',
-	}, {
 		title: 'contact',
 		link: '/contact',
 		class: 'nav_item',
@@ -20,5 +16,16 @@ export default [
 		title: 'archive',
 		link: '/archive',
 		class: 'nav_item',
+		items: [
+			{
+				title: '커피일지',
+				link: '/archive/letter',
+				class: 'nav_item',
+			}, {
+				title: 'news',
+				link: '/archive/news',
+				class: 'nav_item',
+			}
+		]
 	}
 ];
