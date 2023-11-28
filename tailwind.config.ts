@@ -18,6 +18,9 @@ export default {
       '7xl': ['4rem', { lineHeight: '4.5rem' }],
     },
     extend: {
+      gridTemplateRows: {
+        '3': 'repeat(3, minmax(0, 1fr))'
+      },
       borderRadius: {
         '4xl': '2.5rem',
       },
