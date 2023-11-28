@@ -13,7 +13,7 @@ const getData = async (searchParams: {
   const mchGroupId = 10000
   const mchCode = '00651'
   const shopId = 'EC001'
-  const pageIndex = searchParams.page
+  const pageIndex = searchParams.page ?? 1
   const pageSize = 20
   const countryCode = 'korea'
   const languageCode = 'ko-kr'
@@ -53,7 +53,7 @@ const getData = async (searchParams: {
 function Component({ product }) {
   return (
     <Card
-      className=""
+      className="max-w-sm max-h-sm"
       imgAlt="Meaningful alt text for an image that is not purely decorative"
       imgSrc={product?.imageNetAddress?.length ? product.imageNetAddress[0] : ''}
     >
